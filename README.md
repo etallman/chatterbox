@@ -1,29 +1,31 @@
-# Expense Tracker
-Fullstack expense tracker (using hooks)
+# ChatterBox
+Functional Realtime Chat Application.
+**In-development for full-stack functionality here: 
 
 ## Installing
 
-    npm install               // Install backend dependencies
-    cd client npm install     // Install frontend dependencies
-    cd ..                     // Return to root
+### Front-end
+    cd client
+    npm install
+### Back-end
+    from root
+    npm install 
 
-## Running Servers/Dev Environment
-### Frontend and Backend
-    npm run dev
-
-### Backend Only
+## Running The Application
+### Deployed Client
+    https://5ec821f180adbf023b22a035--admiring-fermi-667beb.netlify.app
+    
+### Deployed Back-end Only
+    https://chatterbox-application.herokuapp.com/
+    
+### Back-end Server (Not Deployed)
     from root:
     npm run server
 
-### Frontend Only
+### Front-end Server (Not Deployed)
     cd client
     npm run client
 
-### Deployed Backend
-    https://chatterbox-application.herokuapp.com/
-
-### Deployed Client
-    https://chatterbox-application-cli.herokuapp.com/
   
 ## Built With
 ### Frontend
