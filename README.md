@@ -1,6 +1,6 @@
 # ChatterBox
 Functional Realtime Chat Application.
-**In-development for full-stack functionality here: 
+**In-development for full-stack functionality here: https://github.com/etallman/chatterbox-fullstack
 
 ## Installing
 
