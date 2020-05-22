@@ -15,6 +15,7 @@ let socket;
 
 const Chat = ({ location }) => {
   const baseURL = "localhost:5000";
+  const deployedURL = "https://chatterbox-application.herokuapp.com/"
   const [room, setRoom] = useState("");
   const [name, setName] = useState("");
   const [users, setUsers] = useState("");
@@ -24,7 +25,7 @@ const Chat = ({ location }) => {
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
-    socket = io(baseURL);
+    socket = io(deployedURL);
     setName(name);
     setRoom(room);
 
@@ -33,7 +34,7 @@ const Chat = ({ location }) => {
         alert(error);
       }
     });
-  }, [baseURL, location.search]);
+  }, [deployedURL, location.search]);
 
   useEffect(() => {
     socket.on('message', message => {
